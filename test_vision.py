@@ -184,7 +184,7 @@ def extract_document(pdf_path: str) -> dict:
         "stream": False,
         "format": EXTRACTOR_SCHEMA,
         "options": {
-            "num_ctx": 8192,
+            "num_ctx": 4096,
         },
     }
 
